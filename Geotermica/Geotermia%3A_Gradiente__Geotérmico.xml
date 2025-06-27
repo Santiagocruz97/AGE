@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="spa" codeSpace="ISO639-2">spa</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp>
+        <gco:Date>2018-02-23</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <spatialRepresentationInfo>
+        <MD_VectorSpatialRepresentation>
+            <topologyLevel>
+                <MD_TopologyLevelCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="geometryOnly" codeSpace="ISOTC211/19115">geometryOnly</MD_TopologyLevelCode>
+            </topologyLevel>
+            <geometricObjects>
+                <MD_GeometricObjects>
+                    <geometricObjectType>
+                        <MD_GeometricObjectTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="point" codeSpace="ISOTC211/19115">point</MD_GeometricObjectTypeCode>
+                    </geometricObjectType>
+                </MD_GeometricObjects>
+            </geometricObjects>
+        </MD_VectorSpatialRepresentation>
+    </spatialRepresentationInfo>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem>
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <code>
+                        <gco:CharacterString>4686</gco:CharacterString>
+                    </code>
+                    <codeSpace>
+                        <gco:CharacterString>EPSG</gco:CharacterString>
+                    </codeSpace>
+                    <version>
+                        <gco:CharacterString>7.6.4(9.2.0)</gco:CharacterString>
+                    </version>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>F46_GradientGeotermic_Pozos</gco:CharacterString>
+                    </title>
+                    <date gco:nilReason="missing"/>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>A través del método volumétrico se calculó el potencial geotérmico de Colombia a partir de
+la información geotermométrica de los manantiales termales registrados en el territorio
+nacional y, asumiendo un volumen específico de influencia de un manantial o grupo de
+manantiales termales (clúster), como posible reservorio. Con un área de influencia de 2 km2
+y un espesor de 1.5 km para cada manantial termal, estos se agruparon en un total de 165
+clústeres (grupo de manantiales o manantiales termales aislados) distribuidos en 21 áreas
+geotérmicas y 16 departamentos, localizados dentro y fuera de las áreas geotérmicas
+delimitadas de manera preliminar.
+Las 21 áreas geotérmicas asociadas a sistemas volcánicos activos e inactivos se agrupan en
+cinco bloques localizadas en la Cordillera Oriental (Paipa - Iza); al norte (San Diego y Cerro
+Bravo - Cerro Machín) y sur (Huila - Sucubún y Las Ánimas - Chiles) de la Cordillera Central,
+con algunas áreas en el flanco oriental de la Cordillera Occidental (Azufral, Cumbal y Chiles
+– Cerro Negro). Los manantiales termales fuera de las áreas geotérmicas definidas se
+distribuyen en 16 departamentos localizados en zonas costeras (Atlántico, Magdalena,
+Chocó), en la Zona Andina (Boyacá, Antioquia, Tolima, Huila, Cauca, Nariño, Cesar, Norte de
+Santander, Santander) y en el piedemonte llanero, Llanos Orientales y amazonas (Arauca,
+Casanare, Meta, Guaviare).
+La potencia eléctrica total de las 21 áreas geotérmicas distribuida en 80 clústeres se calculó
+en 1170.20 MWe con un calor almacenado de 138.60 EJ. El mayor recurso se encuentra en
+las áreas geotérmicas de San Diego, Santa Rosa, Cerro Machín y Nereidas Botero Londoño
+con 141.85, 137.24, 129.94 y 100.72 MWe, respectivamente, todas estas localizadas en el
+bloque norte de la Cordillera Central. Al sur se destacan las áreas de la Caldera del Paletará
+con 117.96 MWe y Azufral con 81.9 MWe.
+De los 16 departamentos con presencia de manantiales termales se calculó un total de
+24.95 MWe de potencia eléctrica y 49.56 EJ de calor, distribuidos en 85 clústeres. El mayor
+potencial está en el departamento de Huila con 12.09 MWe y 7.08 EJ, distribuidos en 11
+clústeres. Cundinamarca presenta la mayor cantidad de manantiales termales (50)
+agrupados en 24 clústeres mostrando la mayor cantidad de calor (15.75 EJ) pero con una
+baja potencia de 1.99 MWe. Tomado del Informe Técnico ESTIMACIÓN PRELIMINAR DEL POTENCIAL GEOTÉRMICO DE COLOMBIA (Agosto 2020) </gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>A través del método volumétrico se calculó el potencial geotérmico de Colombia a partir de
+la información geotermométrica de los manantiales termales registrados en el territorio
+nacional y, asumiendo un volumen específico de influencia de un manantial o grupo de
+manantiales termales (clúster), como posible reservorio. Con un área de influencia de 2 km2
+y un espesor de 1.5 km para cada manantial termal, estos se agruparon en un total de 165
+clústeres (grupo de manantiales o manantiales termales aislados) distribuidos en 21 áreas
+geotérmicas y 16 departamentos, localizados dentro y fuera de las áreas geotérmicas
+delimitadas de manera preliminar. 
+Tomado del Informe Técnico ESTIMACIÓN PRELIMINAR DEL POTENCIAL GEOTÉRMICO DE COLOMBIA (Agosto 2020) </gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>Servicio Geológico Colombiano
+Grupo de trabajo Geotermia</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>geotermia</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Geociencias Básicas</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Gradiente</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>geotérmico</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>Este obra está bajo una licencia de Creative Commons Reconocimiento 4.0 Internacional.</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="spa" codeSpace="ISO639-2">spa</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <environmentDescription>
+                <gco:CharacterString> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.0.6491</gco:CharacterString>
+            </environmentDescription>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>Feature Class</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="missing"/>
+                </MD_Format>
+            </distributionFormat>
+        </MD_Distribution>
+    </distributionInfo>
+</MD_Metadata>
